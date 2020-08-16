@@ -1,0 +1,124 @@
+body{
+    font-family: Cambria;
+}
+
+
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    margin-bottom: 30px;
+    color: #fff;
+}
+.top ul{
+    display: flex;
+}
+.top ul li{
+    padding: 0 1%;
+}
+.top ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 50px;
+    display: block;
+}
+.top ul #home{
+    background-color: #008000;
+}
+.top ul li:hover{
+    background-color:#c0c0c0;
+}
+
+
+
+.main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #808080;
+    height: 360px;
+}
+.maintop{
+    width: 100%;
+    background-color: #000046;
+    height: 50px;
+    color: #fff;
+}
+.maintop .maintop_left{
+    padding-left: 2%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    float: left;
+}
+.maintop .maintop_right ul li{
+    float: right;
+    padding: 0 1%;
+}
+.maintop .maintop_right ul li a{
+    line-height: 50px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+.maintop .maintop_right ul #about{
+    background-color: #000000;
+}
+.maintop .maintop_right ul li:hover{
+    background-color: #c0c0c0;
+}
+
+.main .contact p{
+    font-size: 30px;
+    color:#000040;
+    font-weight: bold;
+    font-family: Arial;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main .contact .icon hr{
+    width: 60px;
+    border-width: 1.5px;
+    border-color:#000040;
+    border-radius: 2px; 
+}
+hr, i{
+    float:left;
+}
+.main .contact .icon{
+    margin-top: -34px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main .infor{
+    clear: left;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.main .infor input{
+    width: 78%;
+    height: 40px;
+    border: 1px solid #c0c0c0;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.main .infor #message{
+    border-bottom: 1px solid #c0c0c0;;
+}
+
+
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
